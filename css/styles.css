@@ -48,9 +48,9 @@ ul{
 }
 
 *{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
 }
 *:focus{
     outline: 0;
@@ -93,6 +93,7 @@ body {
 .container{
     width: 100%;
     max-width: 1170px;
+    padding: 0 !important;
 }
 .header-top{
     height: 56px;
@@ -497,6 +498,7 @@ h2{
     height: 22px;
     float: left;
     margin-top: 17px;
+    margin-left: 20px;
 }
 .slogan{
     float: left;
@@ -507,6 +509,7 @@ h2{
 }
 .call-back{
     float: right;
+    margin-right: 20px;
 }
 .btn-sm{
     text-transform: none;
